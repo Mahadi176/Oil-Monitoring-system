@@ -61,3 +61,5 @@ The app is software-only. It does not connect to physical sensors, diagnose equi
 
 ## Release verification
 The source package was syntax-compiled and its automated unit/integration suite passed (10 tests). The supplied Metro Steel workbook was also validated: its monthly summary row was excluded, 30 daily records were imported into a temporary SQLite database, and a PDF report was generated from those records. The Streamlit browser interface was not launched in the build environment because Streamlit was not preinstalled and package installation was blocked by unavailable network access; install `requirements.txt` locally before running the dashboard.
+live link : https://oil-monitoring-system-j8fuxhmpahpj4fa26j4jvm.streamlit.app/
+
